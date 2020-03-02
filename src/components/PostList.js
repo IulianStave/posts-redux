@@ -13,6 +13,7 @@ class PostList extends React.Component {
   }
 }
 
+//export default Postlist;
 export default connect(
   null,
   {fetchPosts: fetchPosts}
